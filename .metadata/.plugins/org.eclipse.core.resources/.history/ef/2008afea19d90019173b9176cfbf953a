@@ -3,7 +3,6 @@ package day01;
 public abstract class T1 {
 		
 	public static void main(String[] args) throws InterruptedException {
-		//Single Process
 		//Process
 		for(int i=0; i<20; i++) {
 			Thread.sleep(10);
