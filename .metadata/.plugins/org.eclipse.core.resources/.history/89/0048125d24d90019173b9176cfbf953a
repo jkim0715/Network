@@ -1,0 +1,19 @@
+package day01;
+
+class SaveThread extends Thread{
+	public void run() {
+		while(true) {
+			Thread.sleep(2000);
+			System.out.println("SAVE..");
+		}
+	}
+}
+
+public class Th4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

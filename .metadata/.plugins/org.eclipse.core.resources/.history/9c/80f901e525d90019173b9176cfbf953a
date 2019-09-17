@@ -1,0 +1,16 @@
+package day01;
+
+import java.util.Scanner;
+
+public class Th5 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int ipt = sc.nextInt();
+		for(int i=0; i<=ipt ; i++) {
+			System.out.println(i);
+		}
+
+	}
+
+}
