@@ -26,7 +26,6 @@ class MyThread2 implements Runnable{
 	
 }
 
-
 //Process
 public class Th2 {
 
