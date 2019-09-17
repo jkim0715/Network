@@ -1,0 +1,16 @@
+package day01;
+
+//how to make Thread?
+class MyThread extends Thread{
+	
+}
+
+
+//Process
+public class Th1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
