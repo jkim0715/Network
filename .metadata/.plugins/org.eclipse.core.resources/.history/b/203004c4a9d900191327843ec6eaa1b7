@@ -9,6 +9,7 @@ class CountThread extends Thread{
 	public CountThread(int ipt) {
 		this.ipt = ipt;
 	}
+
 	public void run() {
 			count(ipt);
 	}
