@@ -1,5 +1,6 @@
 package day02;
 
+import java.util.Scanner;
 
 //Create Thread
 class Th1 extends Thread{
