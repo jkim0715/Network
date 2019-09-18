@@ -6,8 +6,10 @@ class Sus implements Runnable{
 
 	@Override
 	public void run() {
+		while(true) {
 		System.out.println("*");
 //			System.out.println(Thread.currentThread().getName()+" "+Thread.currentThread().getId());
+		}
 		}
 		
 	}
