@@ -48,11 +48,7 @@ public class Suspend2 {
 				ss.setStop();
 			}else if(cmd ==9) {
 				return;
-			}
-			
+			}	
 		}
-		
-
 	}
-
 }
