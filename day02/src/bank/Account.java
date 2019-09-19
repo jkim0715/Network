@@ -22,8 +22,6 @@ public class Account {
 		}else {
 			wait();
 		}
-		
-	
 	}
 	public int getbalance() {
 		return balance;
