@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class User implements Serializable{
 	private String id;
-	private String pwd;
+	transient private String pwd;
 	private int age;
 	public User() {
 		super();
