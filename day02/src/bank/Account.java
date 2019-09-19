@@ -14,10 +14,13 @@ public class Account {
 			throw new Exception();
 		}
 		balance += money;
+		notify();
 	}
-	public void withdraw(int money)throws Exception {
-		if(balance > 0 ) {
+	public synchronized void withdraw(int money)throws Exception {
+		if(balance >= money ) {
 			balance -= money;
+		}else {
+			wait();
 		}
 		
 	

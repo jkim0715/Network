@@ -34,7 +34,7 @@ class Branch extends Thread{
 		while(acc.getbalance() >0 ) {
 			int money = (int)(Math.random()*3+1)*200;
 			try {
-				Thread.sleep(50);
+				Thread.sleep(1000);
 				acc.withdraw(money);
 			} catch (Exception e) {
 				e.printStackTrace();
