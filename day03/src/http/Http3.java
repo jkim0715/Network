@@ -24,7 +24,7 @@ public class Http3 {
 		conn.setRequestMethod("GET");
 		
 		//1-3. Make InputStream
-		InputStream is = conn.getInputStream();
+		InputStream is = conn.getInputStream(); // get connected
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
 		
