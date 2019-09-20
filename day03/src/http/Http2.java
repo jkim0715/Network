@@ -17,7 +17,7 @@ public class Http2 {
 		InputStream is = url.openStream();
 		BufferedInputStream bis = new BufferedInputStream(is);
 		
-		//2-1. Make FileOutputStream 
+		//2-1. Make FileOutputStream for Saving
 		String filename = "oracle.zip";
 		FileOutputStream fos = new FileOutputStream(filename);
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
