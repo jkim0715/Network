@@ -15,7 +15,7 @@ public class Main2 {
 		User user = new User();
 		user = (User)ois.readObject();
 		System.out.println(user.toString());
-
-	}
+	
+		}
 
 }
